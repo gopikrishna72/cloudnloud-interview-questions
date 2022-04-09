@@ -31,7 +31,7 @@
 It represents a single machine in a cluster, which could be a physical machine in a data center or a virtual machine from a cloud provider. Each machine can substitute any other machine in a Kubernetes cluster.
 
 <p align="center">
-  <img src="assets/node-overview.png" alt="Node Overview" width="400px" />
+  <img src="../assets/node-overview.png" alt="Node Overview" width="400px" />
 </p>
 
 **2. Pod:**
@@ -92,7 +92,7 @@ To enable Kubernetes support and install a standalone instance of Kubernetes run
 Click **Apply & Restart** to save the settings and then click **Install** to confirm. This instantiates images required to run the Kubernetes server as containers, and installs the `/usr/local/bin/kubectl` command on your machine.
 
 <p align="center">
-  <img src="assets/kubernetes-installation.png" alt="Kubernetes-Installation" width="500px" />
+  <img src="../assets/kubernetes-installation.png" alt="Kubernetes-Installation" width="500px" />
 </p>
 
 * [Visual Studio Code Kubernetes plugin](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools)
