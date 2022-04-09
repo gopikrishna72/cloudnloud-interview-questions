@@ -56,6 +56,10 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 1. UX Design
 1. Scrum
 
+# kubernetes Interview Questions
+
++ [Kubernetes Interview Questions](./k8s/k8s-interview-questions.md)
+
 # Interview questions for Data Engineer
 
 + [Apache Airflow](./content/airflow.md)
