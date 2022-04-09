@@ -126,6 +126,8 @@
 
 
 [[↑] Back to top](#Azure)
+
+
 ### What is Azure Cloud Service?
 
 By creating a cloud service, you can deploy a multi-tier web application in Azure, defining multiple roles to distribute processing and allow flexible scaling of your application. A cloud service consists of one or more web roles and/or worker roles, each with its own application files and configuration. Azure Websites and Virtual Machines also enable web applications on Azure. The main advantage of cloud services is the ability to support more complex multi-tier architectures
