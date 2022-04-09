@@ -30,7 +30,7 @@ Integrate: It is used to collaborate the various codes, which are from multiple 
 Deploy: It helps for the future use by forming the environment of the cloud from the deployed codes, and it maintains continuous functioning even though the new changes take place in the website with a high traffic.
 Operate: When it is necessary operations take place on code.
 Monitor: For the customer needs, the performance of the application is monitored.
-IMAGE
+
 
 3. What are the advantages of Azure DevOps ?
 
@@ -96,6 +96,8 @@ Ipswitch WhatsUp Gold
 Paessler PRTG
 Rapid7 Insight
 Cisco Identity Services Engine
+
+
 14. Name the web application which can be deployed with Azure ?
 
 The given below are the web applications, that can be deployed with Azure
@@ -103,20 +105,23 @@ The given below are the web applications, that can be deployed with Azure
 ASP.NET
 PHP
 WCF
+
+
 15. Mention the service is used to manage the Azure resources.
 
 Azure resource manager is the one for resource management, that contains various services like deployment, management etc. 
 
-Azure DevOps Interview Questions for Intermediate:
+## Azure DevOps Interview Questions for Intermediate:
+
 1. Make a comparison between DevOps and agile methodology ?
 
 DevOps: It is a kind of culture which helps to collaborate operation teams and the development, and makes them work simultaneously. The output of this process is continuous integration, testing, deployment, development and it scans the entire lifecycle of the software.
 
-IMAGE
+
 
 Agile: It is a type of procedure of software which concentrates small, iterative, the quick delivery of the software and the feedback from users. This process displays the problems and the gaps between developers and the users. 
 
-IMAGE
+
 
 2. Make a comparison between Azure DevOps server and services ?
 
@@ -130,7 +135,8 @@ It easily manages the server.
 Its remote sites are used for best connectivity.
 The latest features get quick access.
 Ops Trainerz
-Subscribe To Our Youtube Channel To Get New Updates..!
+
+
 3. Mention the reasons for why should we use azure boards ?
 
 Its characteristics and applications are the reason for selecting them, the given below are some of the reasons.
@@ -144,6 +150,8 @@ Simple to identify the needs and notify the changes taking place.
 It provides a chance to begin with no cost.
 It provide the advantage of extensibility
 It observes the progress and status in the dashboards.
+
+
 4. Made a comparison between VSTS and Azure DevOps ?
 
 The services of the microsoft visual studio namely Azure DevOps, which have better management tools for the application lifecycle. Our projects may plan with the templates and the tools of the Agile, it helps to run and manage the test plans, source code, version control and to manage the branches. By using CI and CD the solution deployment beyond all platforms with the help of azure pipeline.
@@ -157,9 +165,12 @@ Azure have 3 kinds of roles
 Web Role
 Worker Role
 VM  Role
+
+
 6. Briefly explain the virtual machine scale sets ?
 
-a compute resource which is used for the deployment and the management of a pair of twin VMs, they are designed with the similar configuration for true autoscale. There is no special need for VMs pre-provisioning and simple for services of large scale, they concentrate on workload of containerised, big data.
+a compute resource which is used for the deployment and the management of a pair of twin
+VMs, they are designed with the similar configuration for true autoscale. There is no special need for VMs pre-provisioning and simple for services of large scale, they concentrate on workload of containerised, big data.
 
 7. Make a note about availability sets ?
 
@@ -184,3 +195,67 @@ Yes, it is an inferred set of availability, which contains 5 update domains and 
 12. Explain about break fix issues.
 
 Break fix issues are nothing but the technical issues, that term belongs to industrial which includes work with technical support when it fails in normal functioning. This failure needs supportive organizations interruption for working order restoration. 
+
+
+
+## Azure DevOps Interview Questions for Experienced:
+
+1. Explain the Containers and Azure DevOps supports which containers ?
+
+Containers offer a simple software code approach which associates the dependencies, package and the configuration in a solitary project. We may increase the reply through the beginning, by which various containers run on identical mechain and share with other containers also. Containers used for the quick and well founded deployment, Azure DevOps gave support for Asp.Net, docker and the containers. 
+
+2. Why should we use Azure pipelines, continuous integration and continuous development ?
+
+The execution of the azure pipelines, continuous integration and continuous development is the better way to secure the code quality. They provide a simple, secured and quick way for process automation, which helps to project build and also warrant the obtainability. 
+
+It offers free services for public projects and also 30 hours free service per month for private projects. The given points are some reasons for why we should use Azure DevOps pipelines, continuous integration and continuous delivery.
+
+It holds up any platform.
+The continuous deployment for different kinds of the targets.
+Azure development integration. 
+It helps for windows, linux machines and the mac building.
+Github integration.
+Working abilities through the project of open source.
+
+
+3. What is the use of an active directory in Azure ?
+
+It is the system of access management, which helped to access the grant for our employees to particular services and products of our networks. Twitter and salesforce.com are best examples for it, it provides application built support in galleries that may be directly added. 
+
+4. If we do maximum failed attempts of authentication via Azure AD, then what happens ?
+
+We have more advanced strategies for accounts lock, that is based on requests of IP addresses and passwords which are entered. By using those advanced strategies we can increase the time of lockout, which seems like an attack.
+
+5. How to find applications list which are pre integrated with AD and their capabilities ?
+
+It has nearly 2,600 applications, which are pre integrated. Those applications keep up SSO, single sign on allow us to utilize the credentials of our organization for our apps access. They also gave automated support for de provisioning and provisioning.
+
+6. How to use Azure Ad applications ?
+
+It provides us a simple and secure way  for selecting and connecting with web applications, we also have the chance to access the same as our saas apps access in Azure. VPN is not required to change the infrastructure of our network. 
+
+7. Write a note on Azure service fabric.
+
+It is a platform of distributed systems, which made it simple for package, deployment, scalable management and microservices reliability. It is also used to develop and manage the applications of cloud, developers may neglect the tough problems of infrastructure and pay attention to mission critical implementation, workloads demand which are reliable and scalable. They constitute for future use and platform of mildware for management of enterprise class and the applications of cloudscale.
+
+8. Explain about VNet ?
+
+It is nothing but the rendering of our cloud network, that isolates our launched cloud instances from our remaining resources. 
+
+9. Bring Out the main variations between Subscription Administrator and Directory Administrator ?
+
+We need to assign a subscription administrator for Azure signup, it may use a Microsoft account or the work account of the directory. It is used by Azure portal management service, we can add co-admins when others are required to access with the same subscription. 
+
+It has various admin sets used to manage the features of the directory, they have different azure portal access. They can design and assign roles of administration for others, to reset the passwords and the domain management.
+
+10. What are the restrictions for customers using managed disks ?
+
+They abolish the restrictions that are associated with accounts storage, its number per subscription is restricted to 2000.
+
+11. Make a note about Azure Redis cache ?
+
+Azure redis cache is an open source data structure, which works as cache and database. It is based on the famous redis cache of open source that provides secured access from azure applications. It maintains structure for data they are like hashes, sets, strings along with queries. 
+
+Conclusion:
+
+The above stated frequently asked Azure devops interview questions and answers will help you to crack DevOps interviews, and place you in a great future in this field

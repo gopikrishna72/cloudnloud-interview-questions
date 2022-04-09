@@ -56,24 +56,24 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 1. UX Design
 1. Scrum
 
-## Translations
+# Interview questions for Data Engineer
 
-### Future
-
-- [ ] [中文版 (Chinese)](./topics/zh/readme.md)
-- [ ] [Русский (Russian)](./topics/ru/readme.md)
-- [ ] [한국어(Korean)](./topics/ko/readme.md)
-- [ ] Español (Spanish)
-
-### Creating new Translations
-
-See [Creating new translations](CONTRIBUTING.md#Translations)
-
-## Authors
-
-- **Yl Markov** - [GITHUB](https://github.com/uliaaan) / [TWITTER](https://twitter.com/ylmarkov)
-- **Dennis** - [GITHUB](https://github.com/denisschmidt)
-
-## License
-
-All projects and packages in this repository are [MIT licensed](/LICENSE).
++ [Apache Airflow](./content/airflow.md)
++ [Apache Avro](./content/avro.md)
++ [Apache Cassandra](./content/cassandra.md)
++ [Apache Flume](./content/flume.md)
++ [Apache Hadoop](./content/hadoop.md)
++ [Apache Hive](./content/hive.md)
++ [Apache Impala](./content/impala.md)
++ [Apache Kafka](./content/kafka.md)
++ [Apache NiFi](./content/nifi.md)
++ [Apache Spark](./content/spark.md)
++ [Apache Flink](./content/flink.md)
++ [Apache Hbase](./content/hbase.md)
++ [Amazon Web Services](./content/aws.md)
++ [DWH Architectures](./content/dwha.md)
++ [Microsoft Azure](./content/azure.md)
++ [Tableau](./content/tableau.md)
++ [Kubernetes](./content/kubernetes.md)
++ [SQL](./content/sql.md)
++ [Data Structures](./content/data-structure.md)
