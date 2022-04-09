@@ -1,5 +1,3 @@
-This article is under preparation.
-
 Topic is Divided into following sections, I know these are overlapping sections it's difficult to distinguish between them:
 
 - Administration
