@@ -58,7 +58,10 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 
 # kubernetes Interview Questions
 
-+ [Kubernetes Interview Questions](./k8s/k8s-interview-questions.md)
++ [Kubernetes Interview Questions Part1](./k8s/k8s-interview-questions-part-1.md)
++ [Kubernetes Interview Questions Part2](./k8s/k8s-interview-questions-part-2.md)
++ [Kubernetes Commands - Just Glance](./k8s/kubernetes-commands.md)
++ [Kubernetes Insights Glance](./k8s/kubernetes-workshop.md)
 
 # Interview questions for Data Engineer
 
