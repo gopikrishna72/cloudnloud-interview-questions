@@ -19,11 +19,11 @@
 ## 1. Kubernetes Architecture
 
 <p align="center">
-  <img src="assets/kubernetes-architecture.png" alt="Kubernetes Architecture" width="800px" />
+  <img src="../assets/kubernetes-architecture.png" alt="Kubernetes Architecture" width="800px" />
 </p>
 
 <p align="center">
-  <img src="assets/levels-of-abstraction.png" alt="Kubernetes levels of abstraction" width="300px" />
+  <img src="../assets/levels-of-abstraction.png" alt="Kubernetes levels of abstraction" width="300px" />
 </p>
 
 **1. Node:**
