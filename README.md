@@ -93,8 +93,8 @@ Each file begins with a problem statement. The rest of the file is the solution.
 
 # AWS Solution Architect - Cloud Questions
 
-+ [AWS Cloud refresh](./aws/aws.md)
-
++ [AWS Simple Questions](./aws/aws-interview-questions-part-1.md)
++ [AWS Deep Dive Questions](./aws/aws-interview-questions-part-2.md)
 
 # kubernetes Interview Questions
 
