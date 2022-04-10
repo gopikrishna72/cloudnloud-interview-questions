@@ -121,10 +121,11 @@ Each file begins with a problem statement. The rest of the file is the solution.
 + [Kubernetes Commands - Just Glance](./k8s/kubernetes-commands.md)
 + [How It's Works](./k8s/how-kubernetes-works.md)
 + [Revisit Cron Jobs](./k8s/kuberenets-cronjobs.md)
-+ [Deep Dive Concepts] (./k8s/Kubernetes Concepts.md)
-+ [Refresh admin commands] (./k8s/kubernetes-commands-1.md)
-+ [k8s Glance Once Again] (./k8s/Kubernetes-deployment-tutorial.md)
-+ [Refresh volume admin Skill] (./k8s/persistent-volume.md)
++ [Deep Dive Concepts](./k8s/kubernetes-concepts.md)
++ [Refresh admin commands](./k8s/kubernetes-commands-1.md)
++ [k8s Deployment Glance](./k8s/kubernetes-deployment-tutorial.md)
++ [Refresh volume admin Skill](./k8s/persistent-volume.md)
+
 
 # Interview questions for Data Engineer
 
