@@ -20,7 +20,7 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 + [What kind of analysis need to be asked from business context point of view before any solutioning ](./solution-architect/business-context.md)
 + [What kind of assessment and need to have clear idea while engaging any partnership approach as part of any solutioning ](./solution-architect/partnership.md)
 + [As part of any project solutioning what are all need to be asked ](./solution-architect/project.md)
-+ [As a solution architect what need to be analyz in any project before solutioning ](./solution-architect/sdlc.md)
++ [As a solution architect what need to be analyzed in any project before solutioning ](./solution-architect/sdlc.md)
 + [As a solution architect in any solutioning what sort of technical requirement analysis to do ](./solution-architect/technical-requirements.md)
 
 # Solution Architect - Technology
