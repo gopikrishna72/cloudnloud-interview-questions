@@ -80,11 +80,13 @@ Each file begins with a problem statement. The rest of the file is the solution.
 
 
 
+# LINUX Administration
 
-
-
-
-
++ [Simple Linux Questions](./linux/linux-interview-questions-part-1.md)
++ [Medium Linux Questions](./linux/linux-interview-questions-part-1.md)
++ [Hard Linux Questions](./linux/linux-interview-questions-part-1.md)
++ [Expert Linux Questions](./linux/linux-interview-questions-part-1.md)
++ [Networking Questions](./linux/linux-interview-questions-part-1.md)
 
 
 # kubernetes Interview Questions
