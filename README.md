@@ -131,6 +131,11 @@ Each file begins with a problem statement. The rest of the file is the solution.
 + [7 Assessment Answers ](./k8s/solutions)
 
 
+# Terraform Interview Questions
+
++ [Terraform Interview Questions Set 1](./terraform/terraform-interview-questions-part-1.md)
+
+
 # Interview questions for Data Engineer
 
 + [Apache Airflow](./content/airflow.md)
