@@ -133,7 +133,6 @@ Each file begins with a problem statement. The rest of the file is the solution.
 + [Apache Hbase](./content/hbase.md)
 + [Amazon Web Services](./content/aws.md)
 + [DWH Architectures](./content/dwha.md)
-+ [Microsoft Azure](./content/azure.md)
 + [Tableau](./content/tableau.md)
 + [Kubernetes](./content/kubernetes.md)
 + [SQL](./content/sql.md)
