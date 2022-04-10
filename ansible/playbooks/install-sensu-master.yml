@@ -1,0 +1,14 @@
+#
+#About: This will install sensu-master
+#
+---
+- hosts: '{{inventory}}'
+  become: yes
+  roles:
+  - rabbit-mq
+  - redis
+  - sensu-master
+  #- nginx
+  #- nginx-sensu-master
+  #- sensu-client
+  - sensu-client-checks

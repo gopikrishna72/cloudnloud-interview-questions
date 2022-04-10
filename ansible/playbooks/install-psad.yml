@@ -1,0 +1,8 @@
+#
+#About: This will install psad
+#
+---
+- hosts: '{{inventory}}'
+  become: yes
+  roles:
+  - psad

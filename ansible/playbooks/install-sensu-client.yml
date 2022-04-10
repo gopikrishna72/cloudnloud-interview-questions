@@ -1,0 +1,9 @@
+#
+#About: This will install sensu-client
+#
+---
+- hosts: '{{inventory}}'
+  become: yes
+  roles:
+  - sensu-client
+  - sensu-client-checks

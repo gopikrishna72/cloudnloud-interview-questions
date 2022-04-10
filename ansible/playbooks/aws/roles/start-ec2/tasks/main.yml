@@ -1,0 +1,18 @@
+---
+- name: Search ec2
+  ec2_remote_facts:
+    filters:
+      "tag:Name": "{{hostname}}"
+    aws_access_key: "{{aws_access_key}}"
+    aws_secret_key: "{{aws_secret_key}}"
+    region: "{{aws_region}}"
+  register: ec2info
+
+- name: Start ec2 instance
+  ec2:
+    instance_ids: "{{ec2info.instances[0].id}}"
+    region: "{{ec2info.instances[0].region}}"
+    aws_access_key: "{{aws_access_key}}"
+    aws_secret_key: "{{aws_secret_key}}"
+    state: running
+    wait: True

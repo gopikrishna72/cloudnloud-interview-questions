@@ -1,0 +1,45 @@
+---
+#- name: Copy John the ripper
+#  copy: src=john-1.8.0.tar.xz dest=/opt
+
+#- name: Extract John the ripper
+#  unarchive: src=/opt/john-1.8.0.tar.xz dest=/opt copy=no
+
+- name: Install John the ripper
+  apt: name={{item}} state=present
+  with_items:
+  - john
+
+- name: Copy /etc/passwd
+  command: cp /etc/passwd /tmp/passwd_copy
+
+- name: Copy /etc/shadow
+  command: cp /etc/shadow /tmp/shadow_copy
+
+- name: Unshadow
+  shell: unshadow /tmp/passwd_copy /tmp/shadow_copy > /tmp/password.txt
+
+- name: Cracking password
+  shell: john /tmp/password.txt
+
+- name: Fetch password
+  command: john --show /tmp/password.txt
+  register: password
+
+- name: Display password
+  debug: var=password
+
+- name: Clean up
+  file: path={{item}} state=absent
+  with_items:
+    - /root/.john/john.pot
+    - /root/.john/john.log
+    - /root/.john
+    - /tmp/passwd_copy
+    - /tmp/shadow_copy
+    - /tmp/password.txt
+
+- name: Uninstall John the ripper
+  apt: name={{item}} state=absent
+  with_items:
+  - john

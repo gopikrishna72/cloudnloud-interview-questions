@@ -1,0 +1,9 @@
+#
+#About: This will ping slack
+#
+---
+- hosts: localhost
+  connection: local
+  gather_facts: False
+  roles:
+  - {role: ping-slack, slack_message: 'Boo from Ansible', slack_channel: random, slack_username: Ghost}

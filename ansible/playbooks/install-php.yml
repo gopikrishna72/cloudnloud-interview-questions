@@ -1,0 +1,8 @@
+#
+#About: This will install Php
+#
+---
+- hosts: '{{inventory}}'
+  become: yes
+  roles:
+  - php7

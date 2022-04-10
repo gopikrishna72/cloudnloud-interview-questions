@@ -1,0 +1,8 @@
+#
+#About: This will install Varnish
+#
+---
+- hosts: '{{inventory}}'
+  become: yes
+  roles:
+  - varnish

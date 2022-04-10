@@ -1,0 +1,9 @@
+#
+#About: This will install youtrack
+#
+---
+- hosts: '{{inventory}}'
+  become: yes
+  roles:
+  - jdk
+  - youtrack

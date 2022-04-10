@@ -1,0 +1,11 @@
+#
+#About: This will install ossec-server
+#
+---
+- hosts: '{{inventory}}'
+  become: yes
+  roles:
+  - ossec-server
+  - apache
+  - php7
+  - ossec-server-webui

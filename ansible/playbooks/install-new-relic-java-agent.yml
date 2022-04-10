@@ -1,0 +1,8 @@
+#
+#About: This will install new-relic-agent
+#
+---
+- hosts: '{{inventory}}'
+  become: yes
+  roles:
+  - new-relic-java-agent

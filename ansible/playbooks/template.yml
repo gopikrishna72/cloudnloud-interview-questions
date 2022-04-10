@@ -1,0 +1,19 @@
+---
+- name: template module demo
+  hosts: all
+  become: true
+  vars:
+    page_title: "Placeholder"
+    page_description: |
+      This is my placeholder page example.
+      Multiline is possible ;-)
+  tasks:
+    - name: install Nginx
+      ansible.builtin.apt:
+        name: nginx
+        state: latest
+
+    - name: apply page template
+      ansible.builtin.template:
+        src: templates/placeholder.html.j2
+        dest: /var/www/html/index.html

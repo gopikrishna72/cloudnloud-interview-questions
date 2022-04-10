@@ -1,0 +1,29 @@
+---
+- name: setup webserver
+  hosts: all
+  become: true
+
+  tasks:
+    - name: apache installed
+      ansible.builtin.apt:
+        name: apache2
+        update_cache: yes
+        state: latest
+
+    - name: custom index.html
+      ansible.builtin.copy:
+        dest: "/var/www/html/index.html"
+        content: |
+          Custom Web Page
+
+    - name: apache2 service enabled
+      ansible.builtin.service:
+        name: apache2
+        enabled: true
+        state: started
+
+    - name: open firewall
+      community.general.ufw:
+        rule: allow
+        port: 80
+        proto: tcp

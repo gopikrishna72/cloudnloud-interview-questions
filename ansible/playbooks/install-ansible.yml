@@ -1,0 +1,8 @@
+#
+#About: This will install agar
+#
+---
+- hosts: '{{inventory}}'
+  become: yes
+  roles:
+  - ansible

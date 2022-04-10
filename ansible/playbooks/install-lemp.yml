@@ -1,0 +1,10 @@
+#
+#About: This will install Nginx, Php
+#
+---
+- hosts: '{{inventory}}'
+  become: yes
+  roles:
+  - nginx
+  - php7
+  - mysql

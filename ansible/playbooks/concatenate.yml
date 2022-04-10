@@ -1,0 +1,18 @@
+---
+- name: concatenate demo
+  hosts: "{{ HOSTS }}"
+  become: false
+  gather_facts: true
+  vars:
+    myinput: "concatenate/includes.yaml"
+    myoutput: "concatenate/output.txt"
+  tasks:
+    - name: include file list
+      include_vars:
+        file: "{{ myinput }}"
+        name: files
+
+    - name: concatenate
+      ansible.builtin.template:
+        src: templates/concatenate.j2
+        dest: "{{ myoutput }}"

@@ -1,0 +1,8 @@
+---
+- hosts: '{{inventory}}'
+  become: yes
+  become_method: sudo
+
+  tasks:
+  - name: Cleaning up
+    shell: sudo apt-get -f install && sudo apt-get autoremove && sudo apt-get -y autoclean && sudo apt-get -y clean

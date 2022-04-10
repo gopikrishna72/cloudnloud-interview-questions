@@ -1,0 +1,11 @@
+#
+#About: This must be run on all new servers
+#
+---
+- hosts: '{{inventory}}'
+  become: yes
+  roles:
+  - common
+  #- psad
+  #- rootkit-scanners
+  #- tiger

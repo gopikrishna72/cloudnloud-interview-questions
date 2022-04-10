@@ -1,0 +1,27 @@
+---
+- name: Adding Do not disture repository
+  apt_repository: repo="ppa:vlijm/nonotifs"
+
+- name: Adding ubuntu-indicator-weather
+  apt_repository: repo="ppa:kasra-mp/ubuntu-indicator-weather"
+
+- name: Install essensuals packages
+  apt: name={{item}} state=present
+  with_items:
+  - curl
+  - rar
+  - git
+  - ubuntu-restricted-extras
+  - p7zip-rar
+  - p7zip-full
+  - unrar
+  - zip
+  - unzip
+  - openssh-server
+  - chromium-browser
+  - unity-tweak-tool
+  - bleachbit
+  - youtube-dl
+  - clipit
+  - nonotifs
+  - indicator-weather

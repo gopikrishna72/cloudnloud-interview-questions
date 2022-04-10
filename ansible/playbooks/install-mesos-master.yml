@@ -1,0 +1,10 @@
+#
+#About: This will install mesos-master
+#
+---
+- hosts: '{{inventory}}'
+  become: yes
+  roles:
+  - mesos
+  - zookeeper
+  - mesos-master

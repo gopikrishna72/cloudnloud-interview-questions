@@ -1,0 +1,20 @@
+---
+- name: set environment demo
+  hosts: all
+  gather_facts: false
+  become: true
+  vars:
+    os_environment:
+      - key: EDITOR
+        value: vi
+      - key: MY_ENV_VARIABLE
+        value: ansiblepilot
+
+  tasks:
+    - name: customize /etc/environment
+      ansible.builtin.lineinfile:
+        dest: "/etc/environment"
+        state: present
+        regexp: "^{{ item.key }}="
+        line: "{{ item.key }}={{ item.value }}"
+      with_items: "{{ os_environment }}"

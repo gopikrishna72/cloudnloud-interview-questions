@@ -1,0 +1,18 @@
+---
+- hosts: '{{inventory}}'
+  become: yes
+  roles:
+  - essensuals
+  - jdk
+  - adobe-flashplugin
+  - indicator-multiload
+  - keepassx
+  #- themes
+  - shutter
+  - libreoffice
+  #- pidgin
+  #- runescape
+  - atom
+  #- openra
+  - dropbox
+  - assaultcube

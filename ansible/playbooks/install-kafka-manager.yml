@@ -1,0 +1,10 @@
+#
+#About: This will install kafka
+#
+---
+- hosts: '{{inventory}}'
+  become: yes
+  roles:
+  - jdk
+  - scala
+  - kafka-manager

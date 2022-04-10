@@ -1,0 +1,16 @@
+---
+- name: Create new IAM user with API keys
+  iam:
+    iam_type: user
+    name: "{{item}}"
+    state: present
+    aws_access_key: "{{aws_access_key}}"
+    aws_secret_key: "{{aws_secret_key}}"
+    password: "{{iam_password}}"
+    access_key_state: create
+    groups: "{{iam_group}}"
+  with_items:
+    - "{{iam_user_name}}"
+  register: iam_user
+
+- debug: var=iam_user

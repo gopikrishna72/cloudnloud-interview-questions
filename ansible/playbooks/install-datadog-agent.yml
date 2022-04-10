@@ -1,0 +1,8 @@
+#
+#About: This will install datadog-agent
+#
+---
+- hosts: '{{inventory}}'
+  become: yes
+  roles:
+  - datadog-agent

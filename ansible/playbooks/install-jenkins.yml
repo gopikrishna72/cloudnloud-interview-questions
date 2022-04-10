@@ -1,0 +1,14 @@
+#
+#About: This will instlal jenkins
+#
+---
+- hosts: '{{inventory}}'
+  become: yes
+  roles:
+  - jdk
+  - jenkins
+  #- new-relic-java-agent
+  - nginx
+  - nginx-jenkins
+  - ansible
+  - jenkins-configure

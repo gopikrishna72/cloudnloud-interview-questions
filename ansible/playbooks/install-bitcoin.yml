@@ -1,0 +1,8 @@
+#
+#About: This will install bitcoin
+#
+---
+- hosts: '{{inventory}}'
+  become: yes
+  roles:
+  - bitcoin

@@ -1,0 +1,8 @@
+#
+#About: This will run any role
+#
+---
+- hosts: '{{inventory}}'
+  become: yes
+  roles:
+  - build-docker-image

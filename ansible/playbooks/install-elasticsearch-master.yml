@@ -1,0 +1,8 @@
+#
+#About: This will install elasticsearch-master
+#
+---
+- hosts: '{{inventory}}'
+  become: yes
+  roles:
+  - elasticsearch-master
