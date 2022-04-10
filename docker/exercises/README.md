@@ -4,13 +4,13 @@
 
 |Name|Topic|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|----|
-|Running Containers|Intro|[Exercise](running_containers.md)|[Solution](solutions/running_containers.md)
-|Working with Images|Image|[Exercise](working_with_images.md)|[Solution](solutions/working_with_images.md)
-|My First Dockerfile|Dockerfile|[Exercise](write_dockerfile_run_container.md)|
-|Run, Forest, Run!|Restart Policies|[Exercise](run_forest_run.md)|[Solution](solutions/run_forest_run.md)
-|Layer by Layer|Image Layers|[Exercise](image_layers.md)|[Solution](solutions/image_layers.md)
-|Containerize an application | Containerization |[Exercise](containerize_app.md)|[Solution](solutions/containerize_app.md)
-|Multi-Stage Builds|Multi-Stage Builds|[Exercise](multi_stage_builds.md)|[Solution](solutions/multi_stage_builds.md)
+|Running Containers|Intro|[Exercise](./docker/exercises/running_containers.md)|[Solution](./docker/solutions/running_containers.md)
+|Working with Images|Image|[Exercise](./docker/exercises/working_with_images.md)|[Solution](./docker/solutions/working_with_images.md)
+|My First Dockerfile|Dockerfile|[Exercise](./docker/exercises/write_dockerfile_run_container.md)|
+|Run, Forest, Run!|Restart Policies|[Exercise](./docker/exercises/run_forest_run.md)|[Solution](./docker/solutions/run_forest_run.md)
+|Layer by Layer|Image Layers|[Exercise](./docker/exercises/image_layers.md)|[Solution](./docker/solutions/image_layers.md)
+|Containerize an application | Containerization |[Exercise](./docker/exercises/containerize_app.md)|[Solution](./docker/solutions/containerize_app.md)
+|Multi-Stage Builds|Multi-Stage Builds|[Exercise](./docker/exercises/multi_stage_builds.md)|[Solution](./docker/solutions/multi_stage_builds.md)
 
 ### Containers Self Assessment
 
