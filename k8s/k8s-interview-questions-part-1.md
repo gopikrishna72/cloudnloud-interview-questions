@@ -11,6 +11,98 @@ Topic is Divided into following sections, I know these are overlapping sections 
 
 #### Administration
 
+Q: What is orchestration in software and DevOps?
+
+A: In software development, orchestration refers to the integration of multiple applications or services, allowing them to automate a process or synchronize their data in real-time. If an application runs on multiple microservices that are placed in separate containers, orchestration helps the services communicate seamlessly to achieve a goal.
+
+Q: How does Kubernetes help with orchestration?
+
+A: Kubernetes is an open-source orchestration tool that helps in simplifying DevOps tasks like deployment, scaling, configuration, and others. Most distributed applications are hosted and run in containers. A container is an isolated environment in which the microservices of the app can run together. These containers are managed externally, and they must be scheduled, distributed, and load-balanced to support the infrastructure. But managing these containers becomes challenging in a clustered environment due to data persistence and network configurations.
+
+Kubernetes (blog to get started with Kubernetes) can help overcome these challenges and easily manage a cluster of containers. It can link and orchestrate several containers running on multiple hosts. Kubernetes can manage applications that run on a cluster of hundreds of individual servers. It eliminates most of the manual processes in deploying and scaling containerized applications. Kubernetes allows you to fully implement and fully harness a container-based infrastructure.
+
+Q: What benefits does Kubernetes offer?
+
+A: Kubernetes makes the handling of containers very easy. It helps you deploy applications faster, leading to an improved response to customer demands. Kubernetes helps automate scheduling and rollbacks. Kubernetes is also ideal for cloud-native apps requiring rapid scaling since it can cluster together groups of hosts across private, public, or hybrid clouds.
+
+Q: What are namespaces in Kubernetes?
+
+A: A namespace in Kubernetes is used to divide the resources in the cluster among multiple users. This is particularly helpful in environments where there are multiple users scattered over a vast area geographically.
+
+Q: What is a node in Kubernetes?
+
+A: A node is the smallest unit in the computing system. It is a single machine in a cluster formerly referred to as a minion since it is a worker unit that runs the pods. It can be either a physical machine or a virtual machine and is controlled by the master components in the Kubernetes system.
+
+Q: What are the two main components of the Kubernetes architecture?
+
+A:  The Kubernetes architecture has two primary components – the master node and worker nodes. The master node consists of the API server, the scheduler, the controller manager, and the etcd components. The worker nodes have services such as container run time and Kube proxy that run on each node.
+
+Q: What is the role of a pod?
+
+A: A pod in Kubernetes is responsible for holding individual containers. Each pod can hold various containers depending on the configurations and requirements. The containers held within a single pod share the same resources and the same local network, which makes it easier for them to communicate.
+
+Q: Where is the cluster data stored in Kubernetes?
+
+A: The main data storage component in the Kubernetes system is the etcd. This is where the cluster data is stored.
+
+Q: What is the difference between a pod and a job in Kubernetes?
+
+A: The difference lies in their individual functions. The function of a pod is to ensure that a container is running. The function of a job is to ensure that the pods run to the completion of the job.
+
+Q: What is a kubelet?
+
+A: A kubelet can be considered the lowest level component in the Kubernetes system. Its function is to control a set of pods and ensure that all the containers in a given pod are running throughout its lifecycle.
+
+Q: What is kube-proxy?
+
+A: Kube-proxy manages the host sub-netting and makes services available to other components of the system. Its function is to direct to correct containers based on the IP and port number of incoming requests, thus helping with load balancing.
+
+Q: What is a Heapster in Kubernetes?
+
+A: Heapster is a performance monitoring tool in Kubernetes. It works like just another pod in the cluster and collects metrics on all nodes. It has native support on Kubernetes.
+
+Q: What is a scheduler in the Kubernetes architecture?
+
+A: A scheduler, or kube-scheduler, is responsible for distributing the workload among the worker nodes. It schedules the tasks and monitors the resource use for each node to ensure the distribution is done correctly.
+
+Q: What are Daemon sets?
+
+A: Daemon sets are a set of pods that are made to run on a host, only once. They are used for host layer attributes, like network monitoring, which are usually run only once on a host.
+
+Q: How do you determine that a pod is always running?
+
+A: This can be determined by introducing probes, such as a liveness probe. It can check if the application inside a pod is running. If it shows failure, the container will get restarted.
+
+Q: What are a few different ways to provide API security on Kubernetes?
+
+A: To provide API security on Kubernetes, some methods we can use are:
+
+Use the correct authorization mode with the API server
+Use API authentication
+Ensure that all incoming traffic is protected by TLS
+Use authorization-mode=Webhook to make kubeless protect the API
+Use restrictive RBAC role policy on the kube-dashboard
+Remove any default service account permissions
+
+
+Q: What is load balancing in Kubernetes?
+
+A: The load balancing process allows you to expose services to the internet. Internal load balancing refers to automatically balancing the loads on pods and allocating them with the required configuration. External load balancing refers to directing traffic from external loads to the backend pods.
+
+Q: What is a controller manager, and what are its types?
+
+A: The Kubernetes controller manager is a daemon used for embedding core control loops that regulate the system. It helps to run multiple processes on the Master node.
+
+Q: What are the uses of the Google Kubernetes Engine?
+
+A: The GKE, also known as Google Container Engine, is a management platform for Docker containers and clusters. GKE lets you orchestrate container clusters that run within Google’s public cloud services.
+
+Q: How is Kubernetes different from Docker Swarm?
+
+A: Docker Swarm is a default orchestration tool that comes integrated with Docker. It can orchestrate simple Docker containers. Docker Swarm does not do auto-scaling or deploy automatic rollbacks.
+Kubernetes is also an orchestration tool, but it can manage much more complex applications as it has a more robust cluster. Kubernetes performs auto-scaling and automatic rollbacks.
+Docker Swarm is easier to install, though, as compared to Kubernetes. Docker Swarm also does automatic load balancing between containers, which is not possible in Kubernetes. So, both tools have their set of pros and cons.
+
 Q: How to do maintenance activity on K8 node?
 
 A: Maintenance activity are inevitable part of administration, you may need to do the patching or apply some security fixes on K8. Mark the node unschedulable and then drain the PODs which are present on K8 node.
