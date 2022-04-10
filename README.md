@@ -120,7 +120,7 @@ Each file begins with a problem statement. The rest of the file is the solution.
 + [Kubernetes Interview Questions Part2](./k8s/k8s-interview-questions-part-2.md)
 + [Kubernetes Commands - Just Glance](./k8s/kubernetes-commands.md)
 + [How It's Works](./k8s/how-kubernetes-works.md)
-+ [Revisit Cron Jobs] (./k8s/Kuberenets cronjobs.md)
++ [Revisit Cron Jobs](./k8s/kuberenets-cronjobs.md)
 + [Deep Dive Concepts] (./k8s/Kubernetes Concepts.md)
 + [Refresh admin commands] (./k8s/kubernetes-commands-1.md)
 + [k8s Glance Once Again] (./k8s/Kubernetes Deployment Tutorial.md)
