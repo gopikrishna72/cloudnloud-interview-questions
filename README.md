@@ -106,6 +106,8 @@ Each file begins with a problem statement. The rest of the file is the solution.
 
 + [DevOps Guide - Tools - HighLevel](./devops/DevOps-Guide.md)
 + [Validate yourself before interview](./devops/devops-hands-on-path.md)
++ [Validate yourself Self-Assesment](./devops/DevOps Engineer assignment.md)
+
 
 
 
