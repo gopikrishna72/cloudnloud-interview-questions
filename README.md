@@ -13,19 +13,19 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 # Solution Architect 
 
 + [What need to be looked upon for any project before any solutioning ](./solution-architect/architecture.md)
-+ [What kind of analysis need to be asked from business context point of view before any solutioning ](./solution-architect/business-context.md)
-+ [What kind of assessment and need to have clear idea while engaging any partnership approach as part of any solutioning ](./solution-architect/partnership.md)
++ [What kind of analysis need to be asked from a business context point of view before any solutioning ](./solution-architect/business-context.md)
++ [What kind of assessment and needed while engaging any partnership approach as part of any solutioning ](./solution-architect/partnership.md)
 + [As part of any project solutioning what are all need to be asked ](./solution-architect/project.md)
-+ [As a solution architect what need to be analyzed in any project before solutioning ](./solution-architect/sdlc.md)
++ [As a solution architect what needs to be analyzed in any project before solutioning ](./solution-architect/sdlc.md)
 + [As a solution architect in any solutioning what sort of technical requirement analysis to do ](./solution-architect/technical-requirements.md)
 
 # Solution Architect - Technology
 
-+ [In any kubernetes project what need to be asked ](./solution-architect/technology/compute/kubernetes.md)
-+ [In any BlockChain project what need to be asked ](./solution-architect/technology/compute/blockchain.md)
-+ [In any batchprocessing project what need to be asked ](./solution-architect/technology/compute/batch.md)
-+ [In any DataBase migration project what need to be asked ](./solution-architect/technology/database/database.md)
-+ [In any Data project what need to be asked ](./solution-architect/technology/data/azure-data-lake.md)
++ [In any kubernetes project what needs to be asked ](./solution-architect/technology/compute/kubernetes.md)
++ [In any BlockChain project what needs to be asked ](./solution-architect/technology/compute/blockchain.md)
++ [In any batchprocessing project what needs to be asked ](./solution-architect/technology/compute/batch.md)
++ [In any DataBase migration project what needs to be asked ](./solution-architect/technology/database/database.md)
++ [In any Data project what needs to be asked ](./solution-architect/technology/data/azure-data-lake.md)
 
 
 # LINUX Administration
@@ -127,7 +127,6 @@ Each file begins with a problem statement. The rest of the file is the solution.
 + [Apache Spark](./content/spark.md)
 + [Apache Flink](./content/flink.md)
 + [Apache Hbase](./content/hbase.md)
-+ [Amazon Web Services](./content/aws.md)
 + [DWH Architectures](./content/dwha.md)
 + [Tableau](./content/tableau.md)
 + [Kubernetes](./content/kubernetes.md)
