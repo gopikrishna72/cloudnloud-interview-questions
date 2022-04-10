@@ -4948,9 +4948,6 @@ Useful resources:
 
 </details>
 
-## <a name="secret-knowledge">Secret Knowledge</a>
-
-### :diamond_shape_with_a_dot_inside: <a name="guru-sysadmin">Guru Sysadmin</a>
 
 <details>
 <summary><b>Explain what is Event-Driven architecture and how it improves performance? ***</b></summary><br>
