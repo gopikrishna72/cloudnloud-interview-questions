@@ -87,7 +87,7 @@ Each file begins with a problem statement. The rest of the file is the solution.
 + [Hard Linux Questions](./linux/linux-interview-questions-part-1.md)
 + [Expert Linux Questions](./linux/linux-interview-questions-part-1.md)
 + [Networking Questions](./linux/linux-interview-questions-part-1.md)
-+ [Linux Glance](./linux/linux-interview-questions-part-2.md
++ [Linux Glance](./linux/linux-interview-questions-part-2.md)
 
 
 # kubernetes Interview Questions
