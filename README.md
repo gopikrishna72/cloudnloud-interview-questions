@@ -162,9 +162,9 @@ Each file begins with a problem statement. The rest of the file is the solution.
 
 </p>
 
-# speak to us in our Discord channel
+# Speak to us in our Discord channel
 
-<h3 align="left">speak ot us in our #tech-support channel for all your support/queries need ?:</h3>
+<h3 align="left">Speak to us in our #techsupport channel for all your support/queries need ?:</h3>
 <p align="left">
 <a href="https://discord.gg/vbjRQGVhuF" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="https://discord.gg/vbjRQGVhuF" height="30" width="40" /></a>
 </p>
