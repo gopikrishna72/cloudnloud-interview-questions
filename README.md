@@ -60,7 +60,32 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 
 Each file begins with a problem statement. The rest of the file is the solution.
 
-+ [Implement binary search](./python/binary_tree.py)
++ [1 problem](./python/binary_tree.py)
++ [2 problem](./python/combinations.py)
++ [3 problem](./python/find_path.py)
++ [4 problem](./python/find_tree_sum.py)
++ [5 problem](./python/first_non_repated)
++ [6 problem](./python/glaucoma_scanner.py)
++ [7 problem](./python/hashtable.py)
++ [8 problem](./python/lca.py)
++ [9 problem](./python/permutations.py)
++ [10 problem](./python/permute.py)
++ [11 problem](./python/reverse_string.py)
++ [12 problem](./python/set_some_bits.py)
++ [13 problem](./python/sum_file.py)
++ [14 problem](./python/tasks_for_servers.py)
++ [15 problem](./python/telephone.py)
++ [16 problem](./python/to_hex.py)
+
+
+
+
+
+
+
+
+
+
 
 # kubernetes Interview Questions
 
