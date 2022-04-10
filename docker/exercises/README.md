@@ -4,7 +4,7 @@
 
 |Name|Topic|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|----|
-|Running Containers|Intro|[Exercise](./docker/exercises/running_containers.md)|[Solution](./docker/solutions/running_containers.md)
+|Running Containers|Intro|[Exercise](./docker/exercises/running_containers.md)|[Solution](.././solutions/running_containers.md)
 |Working with Images|Image|[Exercise](./docker/exercises/working_with_images.md)|[Solution](./docker/solutions/working_with_images.md)
 |My First Dockerfile|Dockerfile|[Exercise](./docker/exercises/write_dockerfile_run_container.md)|
 |Run, Forest, Run!|Restart Policies|[Exercise](./docker/exercises/run_forest_run.md)|[Solution](./docker/solutions/run_forest_run.md)
