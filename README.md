@@ -127,6 +127,8 @@ Each file begins with a problem statement. The rest of the file is the solution.
 + [Refresh admin commands](./k8s/kubernetes-commands-1.md)
 + [k8s Deployment Glance](./k8s/kubernetes-deployment-tutorial.md)
 + [Refresh volume admin Skill](./k8s/persistent-volume.md)
++ [7 Assessment exercises ](./k8s/exercises)
++ [7 Assessment Answers ](./k8s/solutions)
 
 
 # Interview questions for Data Engineer
