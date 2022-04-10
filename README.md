@@ -110,6 +110,15 @@ Each file begins with a problem statement. The rest of the file is the solution.
 + [Kubernetes Interview Questions Part2](./k8s/k8s-interview-questions-part-2.md)
 + [Kubernetes Commands - Just Glance](./k8s/kubernetes-commands.md)
 + [Kubernetes Insights Glance](./k8s/kubernetes-workshop.md)
++ [How kubernetes works](./k8s/How Kubernetes Works.md)
++ [Revisit Kubernetes Cron Jobs](./k8s/Kuberenets cronjobs.md)
++ [Deep Dive into Kubernetes Concepts](./k8s/Kubernetes Concepts.md)
++ [Refresh your Kubernets administration commands](./k8s/kubernetes-commands-1.md)
++ [Kubernetes Glance Once Again](./k8s/Kubernetes Deployment Tutorial.md)
++ [Refresh your Kubernets volume administration Skill](./k8s/Persistent Volume.md)
+
+
+
 
 # Interview questions for Data Engineer
 
