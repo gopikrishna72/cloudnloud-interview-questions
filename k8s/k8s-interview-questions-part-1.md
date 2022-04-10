@@ -21,6 +21,111 @@ A: Kubernetes is an open-source orchestration tool that helps in simplifying Dev
 
 Kubernetes (blog to get started with Kubernetes) can help overcome these challenges and easily manage a cluster of containers. It can link and orchestrate several containers running on multiple hosts. Kubernetes can manage applications that run on a cluster of hundreds of individual servers. It eliminates most of the manual processes in deploying and scaling containerized applications. Kubernetes allows you to fully implement and fully harness a container-based infrastructure.
 
+Q: What is a node in Kubernetes?
+
+A: A node is the smallest fundamental unit of computing hardware. It represents a single machine in a cluster, which could be a physical machine in a data center or a virtual machine from a cloud provider. Each machine can substitute any other machine in a Kubernetes cluster. The master in Kubernetes controls the nodes that have containers. 
+
+Q: What is Kubernetes?
+
+A: Kubernetes is an open-source container orchestration tool or system that is used to automate tasks such as the management, monitoring, scaling, and deployment of containerized applications. It is used to easily manage several containers (since it can handle grouping of containers), which provides for logical units that can be discovered and managed. This is an important Kubernetes Interview Questions
+
+Q: How are Kubernetes and Docker related?
+
+A: Docker is an open-source platform used to handle software development. Its main benefit is that it packages the settings and dependencies that the software/application needs to run into a container, which allows for portability and several other advantages. Kubernetes allows for the manual linking and orchestration of several containers, running on multiple hosts that have been created using Docker. 
+
+Q: What are the main differences between the Docker Swarm and Kubernetes?
+
+A: 
+
+- Docker Swarm is Docker’s native, open-source container orchestration platform that is used to cluster and schedule Docker containers. Swarm differs from Kubernetes in the following ways:
+
+- Docker Swarm is more convenient to set up but doesn’t have a robust cluster, while Kubernetes is more complicated to set up but the benefit of having the assurance of a robust cluster
+- Docker Swarm can’t do auto-scaling (as can Kubernetes); however, Docker scaling is five times faster than Kubernetes 
+- Docker Swarm doesn’t have a GUI; Kubernetes has a GUI in the form of a dashboard 
+- Docker Swarm does automatic load balancing of traffic between containers in a cluster, while Kubernetes requires manual intervention for load balancing such traffic  
+- Docker requires third-party tools like ELK stack for logging and monitoring, while Kubernetes has integrated tools for the same 
+- Docker Swarm can share storage volumes with any container easily, while Kubernetes can only share storage volumes with containers in the same pod
+- Docker can deploy rolling updates but can’t deploy automatic rollbacks; Kubernetes can deploy rolling updates as well as automatic rollbacks
+
+
+Q: What is the role of clusters in Kubernetes?
+
+A: Kubernetes allows you to enforce the required state management by feeding cluster services of a specific configuration. Then, these cluster services run that configuration in the infrastructure. The following steps are involved in the process:
+
+The deployment file contains all the configurations to be fed into the cluster services.
+The deployment file is fed into the API.
+Now, the cluster services schedule the pods in the environment
+Cluster services also ensure that the right number of pods are running
+So, the Kubernetes cluster is essentially made up of the API, the worker nodes, and the Kubelet process of the nodes.
+
+Q: What is Kubectl used for?
+
+A: Kubectl is a tool for controlling Kubernetes clusters. In fact, “ctl” stands for control. It is a command-line interface that allows you to pass commands to the cluster and manage the Kubernetes component. This is an important Kubernetes Interview Questions
+
+Q: How can you run Kubernetes locally?
+
+A: You can run Kubernetes locally using the Minikube tool. It runs a single-node cluster inside a virtual machine on your laptop. So, it provides an efficient way for users who are just getting started and want to try out Kubernetes.
+
+Q: What is Heapster?
+
+A: Heapster is a performance monitoring and metrics collection tool supported natively on the Kubernetes cluster. It runs like any other pod in the cluster, discovering all nodes and querying information from Kubernetes nodes. This container management tool works via an on-machine agent. 
+
+Q: What are the different components of Kubernetes Architecture?
+
+A: The Kubernetes Architecture has mainly 2 components – the master node and the worker node. As you can see in the below diagram, the master and the worker nodes have many inbuilt components within them. The master node has Kube-controller-manager, Kube-apiserver, kube-scheduler, etc. Whereas the worker node has kubelet and Kube-proxy running on each node.
+
+Q: What are federated clusters?
+
+A: Multiple Kubernetes clusters can be managed as a single cluster with the help of federated clusters. So, you can create multiple Kubernetes clusters within a data center/cloud and use the federation to control/manage them all in one place.
+
+The federated clusters can achieve this by doing the following two things. Refer to the below diagram.
+
+Q: What is a Headless Service?
+
+A: Headless Service is similar to that of a ‘Normal’ services but does not have a Cluster IP. This service enables you to directly reach the pods without the need of accessing it through a proxy.
+
+Q: What do you understand by load balancer in Kubernetes?
+
+A: A load balancer is one of the most common and standard ways of exposing service. There are two types of load balancers used based on the working environment i.e. either the Internal Load Balancer or the External Load Balancer. The Internal Load Balancer automatically balances load and allocates the pods with the required configuration whereas the External Load Balancer directs the traffic from the external load to the backend pods.
+
+Q: Name the initial namespaces from which Kubernetes starts?
+
+Default
+Kube – system
+Kube – public
+
+Q: What is the Kubernetes controller manager?
+
+A: The controller manager is a daemon that is used for embedding core control loops, garbage collection, and Namespace creation. It enables the running of multiple processes on the master node even though they are compiled to run as a single process.
+
+Kubernetes Interview Questions 
+
+Q: What is a pod in Kubernetes?
+
+A: Pods are high-level structures that wrap one or more containers. This is because containers are not run directly in Kubernetes. Containers in the same pod share a local network and the same resources, allowing them to easily communicate with other containers in the same pod as if they were on the same machine while at the same time maintaining a degree of isolation.
+
+Q: What is the job of the kube-scheduler?
+
+A: The kube-scheduler assigns nodes to newly created pods.
+
+Q: What is orchestration when it comes to software and DevOps? 
+
+A: Orchestration refers to the integration of multiple services that allows them to automate processes or synchronize information in a timely fashion. Say, for example, you have six or seven microservices for an application to run. If you place them in separate containers, this would inevitably create obstacles for communication. Orchestration would help in such a situation by enabling all services in individual containers to work seamlessly to accomplish a single goal. 
+
+Q: What is ETCD in Kubernetes?
+
+A: Etcd is a store for the configuration, state, and metadata of Kubernetes clusters. It is written in Go programming language and represents the cluster state at a given point in time. This datastore serves as the backbone of distributed systems. 
+
+Q: What do you understand by container resource monitoring?
+
+A: From the user perspective, it is vital to understand resource utilization at different abstraction layers and levels, like container pods, services, and the entire cluster. Each level can be monitored using various tools, namely:
+
+Grafana
+Heapster
+InfluxDB
+CAdvisor
+Prometheus
+
 Q: What benefits does Kubernetes offer?
 
 A: Kubernetes makes the handling of containers very easy. It helps you deploy applications faster, leading to an improved response to customer demands. Kubernetes helps automate scheduling and rollbacks. Kubernetes is also ideal for cloud-native apps requiring rapid scaling since it can cluster together groups of hosts across private, public, or hybrid clouds.
