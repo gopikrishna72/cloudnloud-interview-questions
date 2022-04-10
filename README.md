@@ -56,6 +56,12 @@ Note: Keep in mind that many of these questions are open-ended and could lead to
 1. UX Design
 1. Scrum
 
+# Python Real Problems and Solutions
+
+Each file begins with a problem statement. The rest of the file is the solution.
+
++ [Implement binary search](./python/binary_tree.py)
+
 # kubernetes Interview Questions
 
 + [Kubernetes Interview Questions Part1](./k8s/k8s-interview-questions-part-1.md)
