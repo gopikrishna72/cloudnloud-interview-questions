@@ -1,8 +1,4 @@
-<div align="center">
-  <a href="https://github.com/cloudnloud/interview-questions">
-    <img src="./assets/readme.png" alt="Cloudnloud" />
-  </a>
-</div>
+[![Watch the video](./assets/readme.png)](https://linkedin.com/in/vijaystack)
 
 ## What is this?
 
