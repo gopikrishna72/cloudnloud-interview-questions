@@ -525,5 +525,6 @@ If your group has 8 hosts. It will run the whole play on 4 hosts and then the sa
 
 <details>
 <summary>What are collections in Ansible?</summary><br><b>
+
 </b></details>
 

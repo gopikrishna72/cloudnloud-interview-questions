@@ -96,7 +96,8 @@ Each file begins with a problem statement. The rest of the file is the solution.
 + [AWS Simple Questions](./aws/aws-interview-questions-part-1.md)
 + [AWS Deep Dive Questions](./aws/aws-interview-questions-part-2.md)
 + [AWS Use Case Assesment 1 ](./aws/Aws-Use-case-Testing-1.md)
-
++ [AWS 50 Assessment exercises ](./exercises)
++ [AWS 50 Assessment Answers ](./solutions)
 
 # Azure Cloud
 
