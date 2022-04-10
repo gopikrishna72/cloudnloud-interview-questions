@@ -11,7 +11,7 @@ Topic is Divided into following sections, I know these are overlapping sections 
 
 #### Administration
 
-Q: What is orchestration in software and DevOps?
+** Q: What is orchestration in software and DevOps? **
 
 A: In software development, orchestration refers to the integration of multiple applications or services, allowing them to automate a process or synchronize their data in real-time. If an application runs on multiple microservices that are placed in separate containers, orchestration helps the services communicate seamlessly to achieve a goal.
 
